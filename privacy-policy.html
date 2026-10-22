@@ -137,6 +137,18 @@
             margin: 20px 0;
         }
 
+        .service-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #cbd5e1;
+            margin-right: 6px;
+        }
+
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -161,67 +173,81 @@
             <div class="effective-date">Last Updated: October 2026</div>
 
             <p>
-                At <strong>Daisy Game Studio</strong> ("we", "us", or "our"), your privacy is of paramount importance. This Privacy Policy governs all mobile applications, games, and related services published by <strong>Daisy Game Studio</strong> on the Google Play Store and other mobile distribution platforms.
+                At <strong>Daisy Game Studio</strong> ("we", "us", or "our"), your privacy is of paramount importance. This Privacy Policy universally applies to all mobile games, puzzle titles, and interactive applications published by <strong>Daisy Game Studio</strong> on the Google Play Store and other mobile distribution platforms.
             </p>
 
             <div class="highlight-box">
-                <strong>Summary for Players:</strong> Our games do NOT require personal user registration or passwords, do NOT request access to private contacts, sensitive GPS location, microphone, or camera, and do NOT sell personal user data.
+                <strong>Summary for Players:</strong> Our games do NOT require personal user registration or accounts, do NOT request access to private contacts, GPS location, microphone, or camera, and do NOT sell personal user data to third parties.
             </div>
 
-            <h2>1. Scope of This Policy</h2>
+            <h2>1. Scope & Application</h2>
             <p>
-                This policy universally applies to all video games, puzzle titles, casual apps, and interactive entertainment software published under the <strong>Daisy Game Studio</strong> developer account. By installing and playing any of our games on your mobile device, you agree to the collection and use of information in accordance with this policy.
+                This Privacy Policy covers all games and software distributed under the <strong>Daisy Game Studio</strong> developer account. By installing, updating, or playing any of our titles on your mobile device, you acknowledge and agree to the data collection and usage practices described in this document.
             </p>
 
             <h2>2. Information Collection and Storage</h2>
             <p>
-                We design our games with a privacy-first mindset, keeping data footprints minimal:
+                We design our games with a privacy-first architecture, collecting only what is strictly necessary to deliver smooth, crash-free, and engaging entertainment:
             </p>
             <ul>
-                <li><strong>Local Gameplay Progress:</strong> High scores, level completions, virtual currency/achievements, and audio/graphics preferences are stored strictly locally on your device's internal storage.</li>
-                <li><strong>Technical & Diagnostics Information:</strong> Non-personally identifiable diagnostic information (such as operating system version, device model, screen resolution, and language) may be processed by your operating system to ensure smooth rendering and stable performance.</li>
+                <li><strong>Local Gameplay Data:</strong> High scores, completed levels, achievements, virtual currency, and game settings (audio, theme, haptic feedback) are stored strictly locally on your own device's internal storage.</li>
+                <li><strong>Anonymous Hardware & System Specs:</strong> General technical information (device model, operating system version, screen resolution, and language preference) may be processed locally by the game engine to optimize rendering and frame rates.</li>
             </ul>
 
-            <h2>3. Advertising & Third-Party Service Providers</h2>
+            <h2>3. Third-Party Services: Firebase & AdMob</h2>
             <p>
-                To provide our games free of charge, our applications may integrate industry-standard third-party advertising networks, primarily <strong>Google AdMob</strong>.
+                To provide high-quality free-to-play games, deliver in-game rewards, and ensure continuous technical stability, our games integrate trusted third-party SDKs provided by <strong>Google LLC</strong>:
             </p>
+
             <p>
-                These third-party providers may collect and process pseudonymous identifiers (such as the Google Advertising ID) to serve contextual or interest-based ads, monitor ad delivery, and prevent fraudulent activity:
+                <span class="service-badge">Advertising</span><strong>Google AdMob:</strong><br>
+                Used to deliver banner, interstitial, and rewarded video advertisements. AdMob may process pseudonymous device identifiers (such as the Google Advertising ID / GAID) and device information to display relevant or contextual ads, track ad performance, and combat ad fraud. Our official authorized publisher verification is hosted at <a href="/app-ads.txt">bobyjuniorse.github.io/app-ads.txt</a>.
             </p>
+
+            <p>
+                <span class="service-badge">Analytics</span><strong>Google Firebase Analytics:</strong><br>
+                Used to collect aggregated, non-personally identifiable telemetry data (e.g., game launch counts, level completion rates, session duration) to help us balance puzzle difficulty and understand player retention without identifying individual players.
+            </p>
+
+            <p>
+                <span class="service-badge">Crash Reporting</span><strong>Google Firebase Crashlytics:</strong><br>
+                Used to automatically detect, diagnose, and fix game crashes and technical bugs. When a crash occurs, Crashlytics records stack traces and hardware state at the moment of the crash so our engineering team can swiftly deploy stability patches.
+            </p>
+
+            <p>For more details on how Google processes and secures data across these services, please consult:</p>
             <ul>
-                <li><strong>Google Play Services:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
-                <li><strong>Google AdMob:</strong> <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">How Google uses information from apps</a></li>
-                <li><strong>AdMob app-ads.txt:</strong> Our verified publisher identification is officially published at <a href="/app-ads.txt">bobyjuniorse.github.io/app-ads.txt</a>.</li>
+                <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy & Terms</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob Privacy Disclosures</a></li>
+                <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase Privacy and Security</a></li>
             </ul>
 
             <h2>4. Children's Privacy (COPPA & Google Play Families Policy)</h2>
             <p>
-                Daisy Game Studio is committed to the protection of children's privacy. For all our games:
+                Daisy Game Studio is deeply committed to protecting the privacy of children:
             </p>
             <ul>
-                <li>We comply strictly with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and the <strong>Google Play Families Policy</strong>.</li>
-                <li>We do not knowingly collect personally identifiable information from children under the age of 13 (or under 16 in the European Economic Area).</li>
-                <li>Advertisements in family-directed or casual puzzle titles are configured to request child-directed treatment and appropriate age-filtered ratings.</li>
+                <li>We adhere strictly to the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and the <strong>Google Play Families Policy</strong>.</li>
+                <li>We do not knowingly collect, store, or solicit personally identifiable information from children under the age of 13 (or under 16 in the European Economic Area).</li>
+                <li>In games designated for families or children, advertising requests are flagged for child-directed treatment (COPPA / TFCD / TFUA compliance) and restricted to family-safe ad categories.</li>
             </ul>
 
-            <h2>5. User Rights & Privacy Controls (GDPR & CCPA)</h2>
+            <h2>5. Your Privacy Rights & Ad Controls (GDPR & CCPA)</h2>
             <p>
-                Regardless of your country of residence, you maintain control over advertising identifiers and tracking preferences:
+                Depending on your jurisdiction, you have full control over advertising identifiers:
             </p>
             <ul>
-                <li><strong>Resetting Advertising ID:</strong> You can reset or delete your advertising identifier at any time in your Android system settings: <em>Settings &rarr; Google &rarr; Ads &rarr; Reset/Delete Advertising ID</em>.</li>
-                <li><strong>Opting Out of Tracking:</strong> You can disable personalized advertising through your device settings or via in-game consent dialogs (where required by European regulations).</li>
+                <li><strong>Resetting Advertising ID:</strong> You can reset or delete your Google Advertising ID anytime in your Android settings: <em>Settings &rarr; Google &rarr; Ads &rarr; Reset/Delete Advertising ID</em>.</li>
+                <li><strong>Opting Out of Personalized Ads:</strong> You can turn off personalized ad recommendations through your device settings or through any in-game consent management dialogs (UMP / GDPR consent forms).</li>
             </ul>
 
             <h2>6. Policy Updates</h2>
             <p>
-                We may periodically update this Privacy Policy to reflect new game releases or updated platform requirements. All updates will be published on this page with a revised "Last Updated" date.
+                We may periodically update this Privacy Policy to reflect newly published games, platform feature additions, or regulatory updates. Any changes will be posted on this page with an updated "Last Updated" timestamp.
             </p>
 
             <h2>7. Contact Information</h2>
             <p>
-                If you have any questions, suggestions, or privacy inquiries regarding any title created by <strong>Daisy Game Studio</strong>, please contact us:
+                If you have any questions, suggestions, or privacy requests regarding any title published by <strong>Daisy Game Studio</strong>, please contact our support team directly:
             </p>
             <p>
                 <strong>Developer:</strong> Daisy Game Studio<br>
